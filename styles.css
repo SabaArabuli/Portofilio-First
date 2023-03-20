@@ -1,0 +1,254 @@
+/*   font-family: 'Roboto', sans-serif;   */
+
+body{
+    height: 97.5vh;
+    background: linear-gradient(
+      to top,
+      #EDEADE	 0%,
+      #EDEADE	 50%,
+      black 50%,
+      rgb(22, 20, 20) 100%
+    );
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#nikatext{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: fixed;
+    top: 10%;
+    left: 3%;
+}
+
+#nikassaxe{
+    position:absolute;
+    right: 20%;
+}
+
+#nikaabout{
+    font-size: 17px;
+    position: absolute;
+    color: whitesmoke;
+    bottom: 420px;
+    right: 80%;
+}
+
+/* CSS */
+#test {
+    position: absolute;
+    top: 28%;
+    left: 21%;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #f3f1f1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 2;
+    line-height: normal;
+    margin: 0;
+    min-height: 50px;
+    min-width: 0;
+    outline: none;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 9%;
+    will-change: transform;
+}  
+  #test:disabled {
+    pointer-events: none;
+  }
+  
+  #test:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #test:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+#nikaabout{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: fixed;
+    top: 145px;
+    left: 39px;
+    color: white;
+}
+
+#image123{
+    max-width: 300px;
+    min-height: 100px;
+    position: absolute;
+    right: 60px;
+    top: 90px;
+}
+
+#sabasaxe{
+    max-width: 300px;
+    min-height: 100px;
+    position: absolute;
+    left: 74px;
+    bottom: 100px;
+}
+
+a{
+    position: relative;
+    bottom: 300px;
+    right: 7px;
+    appearance: none;
+    background-color: transparent;
+    color: #e6e3e3;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 2;
+    line-height: normal;
+    margin: 0;
+    min-width: 0;
+    outline: none;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 9%;
+    will-change: transform;
+}
+
+#image1234{
+    max-width: 50px;
+    max-height: auto;
+    position: absolute;
+    top:5px;
+    left: 5px;
+}
+
+#facebook{
+    position: absolute;
+    max-width: 16px;
+    top: 14px;
+    right: 290px;
+}
+
+#instagram{
+    position: absolute;
+    max-width: 40px;
+    top: 14px;
+    right: 220px;
+}
+
+#twitter{
+    position: absolute;
+    max-width: 37px;
+    top: 14px;
+    right: 150px;
+}
+
+#test1{
+    position: fixed;
+    bottom: 90px;
+    right: 70vh;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #0a0a0a;
+    border-radius: 19px;
+    box-sizing: border-box;
+    color: #0c0b0b;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 2;
+    line-height: normal;
+    margin: 0;
+    min-height: 50px;
+    min-width: 0;
+    outline: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 9%;
+    will-change: transform;
+
+}
+
+
+#test1:disabled {
+    pointer-events: none;
+  }
+  
+  #test1:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #test:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+#sabatext{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    bottom: 20%;
+    right: 21%;
+    font-weight: 1000px;   
+}
+
+#sabaabout{
+    color: rgb(24, 21, 21);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight:  1000vh;
+    position: absolute;
+    right: 14%;
+    bottom: 10%;
+}
+
+#facebook1{
+    position: absolute;
+    max-width: 16px;
+    bottom: 14px;
+    left: 100px;
+}
+
+#instagram1{
+    position: absolute;
+    max-width: 40px;
+    bottom: 10px;
+    left: 150px;
+}
+
+#twitter1{
+    position: absolute;
+    max-width: 40px;
+    bottom: 10px;
+    left: 200px;
+}
